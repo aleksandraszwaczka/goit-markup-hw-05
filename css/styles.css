@@ -90,6 +90,7 @@ header {
 .header-links {
   text-transform: capitalize;
   color: #212121;
+  font-weight: 500;
 }
 
 .navigation-list-item:not(:last-child) {
@@ -542,6 +543,7 @@ header {
 
 .choosing-images-list-item {
   width: 370px;
+  border: 1px solid #EEEEEE;
 }
 
 .choosing-images-list-item:hover,
@@ -553,10 +555,6 @@ header {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   
-}
-
-.choosing-images-list-item:nth-child(3n + 3) {
-  margin: 0px 0px 30px 0px;
 }
 
 .choosing-images-list-img {
